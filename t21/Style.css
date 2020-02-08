@@ -1,0 +1,42 @@
+body{
+	marding: -10;
+	padding: 0;
+}
+header{
+padding: 10px;
+background: linear-gradient(to right, white,blue)	
+}
+a{
+	text-decoration:none;
+	font-size: 20px;
+	margin-left: 5px;
+	color: #1831c4;
+}
+a:hover{
+		color: red;
+}
+input:focus{
+	border: 2px solid red;
+}
+input:valid{
+	background: lightgreen;
+}
+input:invalid{
+	background: lightgreen;
+}
+input[text=sudmit]{
+	padding: 10px;
+	background: lineat-gradient(to right,firebrick, red);
+	border: none;
+	color: white;
+}
+body{
+background-color: blue;
+color:white;
+}
+form{
+	margin-left: 20px;
+}
+input[text=text],input[text=sudmit],input[text=email]{
+	height: 30px;
+}
