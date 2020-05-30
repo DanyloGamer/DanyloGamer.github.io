@@ -49,10 +49,9 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(img/site.png);
 }
 .text>img{
-	width: 50px;
+	width: 45px;
 }
 footer {
   background: #000;
