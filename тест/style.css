@@ -51,6 +51,9 @@ header{
 	justify-content: center;
 	background-image: url(img/site.png);
 }
+.text>img{
+	width: 50px;
+}
 footer {
   background: #000;
   color: #fff;
