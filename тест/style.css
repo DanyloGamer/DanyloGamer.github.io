@@ -140,3 +140,6 @@ footer {
 	width: 400px;
 	height: 220px;
 }
+input[type=submit]{
+	padding: 12px;
+}
