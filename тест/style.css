@@ -149,3 +149,28 @@ input[type=submit]{
 	width: 200px;
 	height: 200px;
 }
+/*тут мої зміни*/
+.site-select{
+	display: flex;
+	justify-content: space-between;
+}
+.site-select-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+#buy{
+	display: block;
+	background: red;/*колір пібдереш*/
+	text-align: center;
+	color: black;
+	width: 200px;
+	margin: 20px auto;
+	padding: 20px;
+	transition: background 1s, color 1s;;
+}
+#buy:hover{
+	background: blue;/*колір пібдереш*/
+	color: white;
+}
