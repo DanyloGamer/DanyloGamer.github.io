@@ -34,7 +34,7 @@ header{
 }
 .landing{
 	height: 570px;
-	background-color: #0077ff;
+	background-image: url(img/12.jpg);
 	color: white;
 	display: flex;
 	flex-direction: column;
@@ -162,7 +162,7 @@ input[type=submit]{
 }
 #buy{
 	display: block;
-	background: red;/*колір пібдереш*/
+	background: #0f6ddb;/*колір пібдереш*/
 	text-align: center;
 	color: black;
 	width: 200px;
@@ -171,6 +171,6 @@ input[type=submit]{
 	transition: background 1s, color 1s;;
 }
 #buy:hover{
-	background: blue;/*колір пібдереш*/
+	background: #215fa6;/*колір пібдереш*/
 	color: white;
 }
