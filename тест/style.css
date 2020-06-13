@@ -40,6 +40,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0, 0.6)), url('img/12.jpg');
 }
 .landing h1{font-size: 80px;}
 .landing h3{font-size: 30px;}
@@ -78,10 +79,12 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
+  justify-content: center;
   max-width: 1170px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 100%;
 }
 
@@ -91,7 +94,7 @@ footer {
   border: 1px solid gray;
   padding: 0 20px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 20px;
 }
 
@@ -164,7 +167,7 @@ input[type=submit]{
 	display: block;
 	background: #0f6ddb;/*колір пібдереш*/
 	text-align: center;
-	color: black;
+	color: white;
 	width: 200px;
 	margin: 20px auto;
 	padding: 20px;
